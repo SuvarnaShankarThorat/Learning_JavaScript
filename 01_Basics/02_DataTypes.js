@@ -17,3 +17,13 @@ console.log(typeof city);
 // boolean => true/ false
 // undefined => undefined
 // null => null 
+
+// Symbol => Unique id 
+
+let id=Symbol('123');// 
+let anotherId=Symbol('123');
+
+console.log(id==anotherId);//false
+
+let bigNumber=12313245678788n
+console.log(typeof bigNumber)// bigInt
